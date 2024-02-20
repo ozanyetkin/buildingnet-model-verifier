@@ -26,3 +26,8 @@ Simply run the following command to verify the existence of the models in the da
 ```
 python3 model_verifier.py
 ```
+
+It looks for the models in the following directory, you can change it in the script if you have a different path:
+```
+models_path = "./pretrained_avgpool_minkownormal_features/fc3_avg"
+```
